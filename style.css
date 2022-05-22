@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+img {
+  max-width: 100%;
+}
+#heart {
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
+}
+@keyframes beat {
+  to {
+    transform: scale(1.1);
+  }
+}
+#lotus path {
+  fill: none;
+  stroke: #958d15;
+  stroke-width: 4;
+}
+#breatheText {
+  position: absolute;
+}
